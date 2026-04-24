@@ -1,5 +1,6 @@
 import HeroSection from "./HeroSection";
 import UnderlinedText from "../decoraters/UnderlinedText";
+import TodaysHighlight from "./TodaysHighlight";
 
 const AuthScreen = () => {
 	return (
@@ -18,7 +19,11 @@ const AuthScreen = () => {
 				</p>
 
 				{/* Featured Post */}
-				
+
+				<div className="flex flex-col gap-10 mt-10">
+					<TodaysHighlight />
+				</div>
+
 			</div>
 		</div>
 
