@@ -3,6 +3,7 @@ import UnderlinedText from "../../decoraters/UnderlinedText";
 import TodaysHighlight from "./TodaysHighlight";
 import RotatedText from "../../decoraters/RotatedText";
 import MasonaryGrid from "./MasonaryGrid";
+import Features from "./Features";
 
 const AuthScreen = () => {
   return (
@@ -30,6 +31,7 @@ const AuthScreen = () => {
               </p>
               <MasonaryGrid />
             </div>
+            <Features />
           </div>
         </div>
       </div>
